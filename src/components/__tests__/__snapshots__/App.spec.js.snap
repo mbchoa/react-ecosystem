@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render div with content of "Hello from the React Ecosystem!" 1`] = `
+<div>
+  Hello from the React Ecosystem!
+</div>
+`;
