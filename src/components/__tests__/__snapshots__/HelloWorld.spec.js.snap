@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld should render HelloWorld 1`] = `
+<div
+  className="hello"
+>
+  Hello from React Ecosystem!
+</div>
+`;
