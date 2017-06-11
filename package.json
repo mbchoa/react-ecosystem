@@ -22,6 +22,9 @@
   "author": "Michael-Bryant Choa",
   "license": "MIT",
   "jest": {
+    "moduleNameMapper": {
+      "\\.css$": "identity-obj-proxy"
+    },
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
@@ -42,13 +45,18 @@
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
     "babel-register": "6.24.1",
+    "css-loader": "0.28.4",
     "enzyme": "2.8.2",
     "enzyme-to-json": "1.5.1",
     "eslint": "3.19.0",
     "eslint-plugin-react": "7.0.1",
     "html-webpack-plugin": "2.28.0",
+    "identity-obj-proxy": "3.0.0",
+    "isomorphic-style-loader": "2.0.0",
     "jest": "20.0.4",
     "jest-cli": "20.0.4",
+    "postcss": "6.0.1",
+    "postcss-loader": "2.0.5",
     "react-test-renderer": "15.5.4",
     "webpack": "2.6.1",
     "webpack-dev-server": "2.4.5"
